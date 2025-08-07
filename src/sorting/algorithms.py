@@ -22,7 +22,7 @@ def bubble_sort(arr: list):
 
 def merge_sort(arr):
 
-  if(len(arr) == 1):
+  if(len(arr) <= 1):
     print(arr)
     return arr
   
